@@ -1,0 +1,16 @@
+ALGORITHM Mon_algo
+VAR
+    a:=INTEGER;
+    b:=INTEGER;
+    c:=STRING;
+    i:=INTEGER;
+BEGIN
+Write('Entrez une phrase : ');
+  ReadLn(c);
+  a:=lenght(c);
+ writeln ('le nombre des caractere dans la phrase =',a);
+ for i := 1 to a do 
+   if (c[i] = ' ')
+    b:=b+1;
+ writeln ('le nombre de mots dans votre phrase est ',b) ;   
+END
